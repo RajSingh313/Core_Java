@@ -1,4 +1,4 @@
-package OOPS.Inhertance.OverloadingOverriding;
+package OOPS.Inhertance.Overloading;
 
 class Calculator {
 
