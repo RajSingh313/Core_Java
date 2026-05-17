@@ -1,6 +1,9 @@
+
 package OOPS.Relationships;
 
-//Association means two classes are connected, but both can exist independently.
+// Association means two classes are connected,
+// but both can exist independently.
+
 class Teacher {
     String name;
 
@@ -13,7 +16,7 @@ class Teacher {
     }
 }
 
-// Student.java
+// Student class
 class Student {
     String name;
 
@@ -26,16 +29,17 @@ class Student {
     }
 }
 
-// Main.java
+// Main class
 public class Association {
     public static void main(String[] args) {
 
-        Teacher teacher = new Teacher("Mr. Ali");
+        Teacher teacher1 = new Teacher("Mr. Ali");
         Student student = new Student("Raj");
 
-        teacher.teach();
-        student.learn(teacher);
+        teacher1.teach();
+
+        // Passing teacher object
+        student.learn(teacher1);
     }
 }
-
 
